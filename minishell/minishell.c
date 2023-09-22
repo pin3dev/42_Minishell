@@ -92,7 +92,7 @@ int	main(void)
 	init_lexer(&global);
 	while (1)
 	{
-		global.input = readline("cliva% ");
+		global.input = readline(get_prompt(g_status));
 		if (!global.input)
 			set_sig(EXT, &global);
 		if (global.input)

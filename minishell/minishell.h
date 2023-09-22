@@ -30,6 +30,11 @@
 # define WRITE 1
 # define READ 0
 
+# define RED     "\x1b[31m"
+# define GREEN   "\x1b[32m"
+# define YELLOW  "\x1b[33m"
+# define RESET   "\x1b[0m"
+
 extern int	g_status;
 
 typedef enum s_div
@@ -284,5 +289,7 @@ t_token	*begin_cmd_or_redir(char **str, int *s, int *i, t_token **head);
 t_token	*find_div_node(t_div type, t_token *begin, t_token *end);
 t_token	*ft_lstlast_ast(t_token *lst);
 t_token	*ft_lstnew_list_ast(t_div type);
+
+const char	*get_prompt(int status);
 
 #endif

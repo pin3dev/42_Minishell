@@ -6,7 +6,7 @@
 #    By: clima-fr <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/18 17:28:35 by clima-fr          #+#    #+#              #
-#    Updated: 2023/09/19 18:49:35 by ivbatist         ###   ########.fr        #
+#    Updated: 2023/09/22 19:26:24 by ivbatist         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,7 @@ SRC = builts/b_upd_array.c \
       lib/lb_lst_expo.c lib/libft_atoi.c lib/libft_char.c \
       lib/libft_cpy.c lib/libft_itoa.c lib/libft_mem.c lib/libft_split.c \
       lib/libft_str.c monitoring/m_checker.c monitoring/m_clean.c \
-      monitoring/m_signal.c parser/p_lst_ast.c parser/p_tree_ast.c \
+      monitoring/m_signal.c monitoring/m_prompt.c parser/p_lst_ast.c parser/p_tree_ast.c \
       parser/p_utils_lst_ast.c parser/p_utils_tree_ast.c \
       minishell.c \
 
