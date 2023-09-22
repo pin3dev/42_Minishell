@@ -1,0 +1,18 @@
+******************ANOTAR AQUI EM CASO DE ERRO
+
+*****funcoes que alterei free_array
+[1]->mini_echo()
+[2]->copy_paths()
+[3]->exec_export()
+
+*****funcoes que o print_error() foi substituido
+[1]->mini_cd(✅)
+[2]->mini_env(✅)
+[3]->mini_exit(✅)
+[4]->mini_pwd(✅)
+[5]->exec_export(✅)
+
+*****funcoes modificadas/divididas
+[1]->mini_export() -> mudou declaracao de parametros e foi dividida em exec_export()
+[2]->mini_cd() -> foi dividida em go_to_home() e update_pwd()
+

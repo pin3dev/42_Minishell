@@ -1,0 +1,17 @@
+******************ANOTAR AQUI EM CASO DE ERRO
+*****funcoes que alterei free_array
+[1]->
+[2]->
+[3]->
+
+*****funcoes que precisam ter o print_error() substituido
+[1]->
+[2]->
+[3]->
+[4]->
+[5]->
+
+*****funcoes modificadas/divididas
+[1]->create_cmd_list() -> mudou declaracao de parametros
+
+
