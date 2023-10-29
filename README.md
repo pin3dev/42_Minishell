@@ -11,6 +11,8 @@ Minishell - As beautiful as a shell 🐚
 - [Theoretical Explanation (toggle-able)](#theoretical-explanation)
 - [Copyright](#contributors)
 
+
+
 ## Overview
 
 This project is a simplified implementation of a Unix shell, adhering to the `minishell` project curriculum of 42 school.
