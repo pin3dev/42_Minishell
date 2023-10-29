@@ -154,7 +154,7 @@ cliva_minixHell> exit
 #[exit]
 ```
 
-### ENVIROMMENTS VARIBLES `$` AND `$?`
+### EXPANDING EXIT STATUS VARIABLES BY `$?`
 ```bash
 cliva_minixHell> ./minishell
 cliva_minixHell> exit 1
@@ -182,7 +182,21 @@ cliva_minixHell> exit 42blabla
 #[...error output...]
 ```
 
-
+### EXPANSION OF ENVIRONMENT VARIABLES BY `$`
+```bash
+cliva_minixHell> echo $HOME
+#[...your HOME path...]
+cliva_minixHell> echo "$HOME"
+#[...your HOME path...]
+cliva_minixHell> echo '$HOME'
+#[$HOME]
+cliva_minixHell> echo $HOME.test
+#[...your HOME path + .test...]
+cliva_minixHell> echo $HOME/test
+#[...your HOME path + /test...]
+cliva_minixHell> echo $HOME.test/$USER
+#[...your HOME path + /test + / +  your USER name...]
+```
 
 ## Contributors
 
