@@ -89,7 +89,7 @@ cliva_minixHell> echo 'test with %specials *chars'
 cliva_minixHell> echo 'cat lol.c cat > Iol.c'
 #[cat lol.c cat > Iol.c]
 
-##I encourage you to test the status with other commands such as expr $? + $? for example, you can use your creativity
+#I encourage you to test the status with other commands such as expr for example, you can use your creativity
 ```
 
 ###### CD, PWD & ENV
