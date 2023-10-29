@@ -1,6 +1,8 @@
 # Minishell
 Minishell - As beautiful as a shell 🐚
 
+>In this repository, you'll find a detailed description of what this project entails, instructions on how to test it, and soon, a comprehensive theoretical breakdown of its construction. Our aim is to provide a clear and thorough overview, making it easy for you to navigate, explore, or contribute to this project. Scroll down for more in-depth details and relevant information.
+
 ## Table of Contents
 - [Project Overview](#overview)
 - [Mandatory Features](#mandatory-features)
