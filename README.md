@@ -9,6 +9,7 @@ Minishell - As beautiful as a shell 🐚
 - [Project Compilation and Execution](#compilation-and-execution)
 - [Tests -  Usage Examples (toggle-able)](#usage-examples)
 - [Theoretical Explanation (toggle-able)](#theoretical-explanation)
+- [Copyright](#contributors)
 
 ## Overview
 
