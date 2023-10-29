@@ -148,10 +148,36 @@ cliva_minixHell> #HERE TRY ANY COMMAND
 #[...error output...]
 ```
 
-###### EXIT:
+###### EXIT
 ```bash
-
-
+cliva_minixHell> exit
+#[exit]
+bash> echo $?
+#[0]
+bash> ./minishell
+cliva_minixHell> exit 1
+#[exit]
+bash> echo $?
+#[1]
+bash> ./minishell
+cliva_minixHell> exit 42
+#[exit]
+bash> echo $?
+#[42]
+bash> ./minishell
+cliva_minixHell> exit -42
+#[exit]
+bash> echo $?
+#[214]
+bash> ./minishell
+cliva_minixHell> exit 42 10
+#[exit]
+#[...error output...]
+bash> echo $?
+#[1]
+bash> ./minishell
+cliva_minixHell> exit 42blabla
+#[...error output...]
 ```
 
 ## Contributors
