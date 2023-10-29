@@ -152,9 +152,10 @@ cliva_minixHell> #HERE TRY ANY COMMAND
 ```bash
 cliva_minixHell> exit
 #[exit]
-bash> echo $?
-#[0]
-bash> ./minishell
+```
+
+### ENVIROMMENTS VARIBLES `$` AND `$?`
+```bash
 cliva_minixHell> exit 1
 #[exit]
 bash> echo $?
@@ -179,6 +180,8 @@ bash> ./minishell
 cliva_minixHell> exit 42blabla
 #[...error output...]
 ```
+
+
 
 ## Contributors
 
