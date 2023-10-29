@@ -38,6 +38,16 @@ make
 
 The tests below were thought up by my friend `@waltergcc`, for more examples you can visit his [repository here](https://github.com/waltergcc/42-minishell#tests)
 
+## Table of Tests
+- [General](#general)
+- [Quotes](#quote-handling)
+- [Builtins](#builtins)
+- [Expanding $?](#expanding-exit-status-variables-by)
+- [Expanding $](#expanding-environment-variables-by)
+- [Signals](#signal-control-by-ctrlc-ctrld-ctrl\)
+- [Pipes](#pipes)
+- [Redirs](#redirs-and-heredoc)
+
 ### General
 ```bash
 cliva_minixHell> date
@@ -165,7 +175,7 @@ cliva_minixHell> exit
 #[exit]
 ```
 
-### EXPANDING EXIT STATUS VARIABLES BY `$?`
+### Expanding Exit Status Variables By `$?`
 ```bash
 cliva_minixHell> ./minishell
 cliva_minixHell> exit 1
@@ -195,7 +205,7 @@ cliva_minixHell> exit 42blabla
 #
 ```
 
-### EXPANSION OF ENVIRONMENT VARIABLES BY `$`
+### Expanding Environment Variables By `$`
 ```bash
 cliva_minixHell> echo $HOME
 #[...your HOME path...]
@@ -211,7 +221,7 @@ cliva_minixHell> echo $HOME.test/$USER
 #[...your HOME path + /test + / +  your USER name...]
 ```
 
-### SIGNAL CONTROL BY `CTRL+C`, `CTRL+D`, `CTRL+\`
+### Signal Control by `CTRL+C`, `CTRL+D`, `CTRL+\`
 ###### EMPTY PROMPT
 
 ```bash
@@ -263,7 +273,7 @@ bash> echo $?
 #[0]
 ```
 
-### PIPES
+### Pipes
 ```bash
 cliva_minixHell> cat Makefile | grep NAME | wc -l
 #[...how many lines are in the Makefile with NAME...]
@@ -273,7 +283,7 @@ cliva_minixHell> ls -l | grep "^-" | wc -l
 #[...Count the number of files in a directory...]
 ```
 
-### REDIRS and HEREDOCS
+### Redirs and Heredoc
 ```bash
 cliva_minixHell> ls -l > test
 #[...create test file with the ls output inside...]
