@@ -27,7 +27,7 @@ make
 
 ## Usage Examples
 
-The tests below were thought up by my friend `@waltergcc`, for more examples you can visit his repository here
+The tests below were thought up by my friend `@waltergcc`, for more examples you can visit his (repository here)[https://github.com/waltergcc/42-minishell#tests]
 
 ```bash
 $> echo "Hello, world!"
