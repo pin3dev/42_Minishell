@@ -88,6 +88,8 @@ cliva_minixHell> echo 'test with %specials *chars'
 #[test with %specials *chars]
 cliva_minixHell> echo 'cat lol.c cat > Iol.c'
 #[cat lol.c cat > Iol.c]
+cliva_minixHell> echo '$HOME > home.txt'
+#[$HOME > home.txt]
 
 #I encourage you to test the status with other commands such as expr for example, you can use your creativity
 ```
