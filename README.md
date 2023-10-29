@@ -7,7 +7,7 @@ Minishell - As beautiful as a shell 🐚
 - [Project Overview](#overview)
 - [Mandatory Features](#mandatory-features)
 - [Project Compilation and Execution](#compilation-and-execution)
-- [Tests -  Usage Examples](#usage-examples)
+- [Tests -  Usage Examples (toggle-able)](#usage-examples)
 
 ## Overview
 
