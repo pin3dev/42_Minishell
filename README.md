@@ -12,7 +12,7 @@ Minishell - As beautiful as a shell 🐚
 - [Copyright](#contributors)
 
 <p align="center">
-  <img src=".gif" alt="gif_minishell_test" style="display: block; margin: 0 auto; width: 100%;">
+  <img src="https://github.com/pin3dev/42_Minishell/blob/9f8c7b788d5290edecf79b26bc83c83fd6ce4953/minishell_redirs_pipes.gif" alt="gif_minishell_test" style="display: block; margin: 0 auto; width: 100%;">
 </p>
 
 ## Overview
