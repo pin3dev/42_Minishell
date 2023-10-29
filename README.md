@@ -156,27 +156,28 @@ cliva_minixHell> exit
 
 ### ENVIROMMENTS VARIBLES `$` AND `$?`
 ```bash
+cliva_minixHell> ./minishell
 cliva_minixHell> exit 1
 #[exit]
-bash> echo $?
+cliva_minixHell> echo $?
 #[1]
-bash> ./minishell
+cliva_minixHell> ./minishell
 cliva_minixHell> exit 42
 #[exit]
-bash> echo $?
+cliva_minixHell> echo $?
 #[42]
-bash> ./minishell
+cliva_minixHell> ./minishell
 cliva_minixHell> exit -42
 #[exit]
-bash> echo $?
+cliva_minixHell> echo $?
 #[214]
-bash> ./minishell
+cliva_minixHell> ./minishell
 cliva_minixHell> exit 42 10
 #[exit]
 #[...error output...]
-bash> echo $?
+cliva_minixHell> echo $?
 #[1]
-bash> ./minishell
+cliva_minixHell> ./minishell
 cliva_minixHell> exit 42blabla
 #[...error output...]
 ```
