@@ -27,14 +27,43 @@ make
 
 ## Usage Examples
 
-The tests below were thought up by my friend `@waltergcc`, for more examples you can visit his (repository here)[https://github.com/waltergcc/42-minishell#tests]
+The tests below were thought up by my friend `@waltergcc`, for more examples you can visit his [repository here](https://github.com/waltergcc/42-minishell#tests)
 
+### General
 ```bash
-$> echo "Hello, world!"
-Hello, world!
-$> ls -l
-[...command output...]
-$> exit
+cliva_minixHell> date
+#[...command output...]
+cliva_minixHell> who
+#[...command output...]
+cliva_minixHell> touch 1 2 3
+cliva_minixHell> ls
+#[...command output + files 1 2 3 created...]
+cliva_minixHell> rm 1 2 3
+#[...command output + files 1 2 3 created...]
+cliva_minixHell> ls
+#[...command output without removed files 1 2 3...]
+cliva_minixHell> /bin/ls
+#[...command output...]
+
+
+#I encourage you to test with more commands, you can use your creativity
+```
+
+###Quote Handling
+```bash
+cliva_minixHell> "/bin/ls"
+#[...command output...]
+cliva_minixHell> "ls"
+#[...command output...]
+cliva_minixHell> "ls -l"
+#[...error output...]
+cliva_minixHell> "cat" existing_files
+#[...content of existing file output...]
+cliva_minixHell> "cat existing_files"
+#[...error output...]
+
+#I encourage you to try another type and quantity of quotation marks,
+# mixing double and single quotation marks, you can use your creativity
 ```
 
 ## Contributors
