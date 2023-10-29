@@ -8,6 +8,7 @@ Minishell - As beautiful as a shell 🐚
 - [Mandatory Features](#mandatory-features)
 - [Project Compilation and Execution](#compilation-and-execution)
 - [Tests -  Usage Examples (toggle-able)](#usage-examples)
+- [Theoretical Explanation (toggle-able)](#theoretical-explanation)
 
 ## Overview
 
@@ -312,6 +313,10 @@ cliva_minixHell> < test cat > test2
 cliva_minixHell> wc -l < /etc/passwd > file1 > file2 > file3 > file4
 #[...create file1, 2 and 3 empty and file4 with the  countn lines of passwd file content]
 ```
+</details>
+
+<details><summary><h2 id="Theoretical Explanation">Theoretical Explanation</h2></summary>
+>soon
 </details>
 
 ## Contributors
