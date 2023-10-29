@@ -44,7 +44,7 @@ The tests below were thought up by my friend `@waltergcc`, for more examples you
 - [Builtins](#builtins)
 - [Expanding $?](#expanding-exit-status-variables-by-)
 - [Expanding $](#expanding-environment-variables-by-)
-- [Signals](#signal-control-by-ctrlc-ctrld-ctrl\)
+- [Signals](#signal-control-by-ctrlc-ctrld-ctrl-)
 - [Pipes](#pipes)
 - [Redirs](#redirs-and-heredoc)
 
