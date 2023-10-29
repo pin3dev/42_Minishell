@@ -11,7 +11,9 @@ Minishell - As beautiful as a shell 🐚
 - [Theoretical Explanation (toggle-able)](#theoretical-explanation)
 - [Copyright](#contributors)
 
-
+<p align="center">
+  <img src=".gif" alt="gif_minishell_test" style="display: block; margin: 0 auto; width: 100%;">
+</p>
 
 ## Overview
 
