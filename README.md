@@ -255,9 +255,11 @@ bash> echo $?
 ### PIPES
 ```bash
 cliva_minixHell> cat Makefile | grep NAME | wc -l
+[...how many lines are in the Makefile with NAME...]
 cliva_minixHell> ps aux | sort -rk 4 | head
+[...List the processes that consume the most memory...]
 cliva_minixHell> ls -l | grep "^-" | wc -l
-
+[...Count the number of files in a directory...]
 ```
 
 ## Contributors
