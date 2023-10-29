@@ -255,11 +255,39 @@ bash> echo $?
 ### PIPES
 ```bash
 cliva_minixHell> cat Makefile | grep NAME | wc -l
-[...how many lines are in the Makefile with NAME...]
+#[...how many lines are in the Makefile with NAME...]
 cliva_minixHell> ps aux | sort -rk 4 | head
-[...List the processes that consume the most memory...]
+#[...List the processes that consume the most memory...]
 cliva_minixHell> ls -l | grep "^-" | wc -l
-[...Count the number of files in a directory...]
+#[...Count the number of files in a directory...]
+```
+
+### REDIRS and HEREDOCS
+```bash
+cliva_minixHell> ls -l > test
+#[...create test file with the ls output inside...]
+cliva_minixHell> cat Makefile >> test
+#[...add Makefile content on file test...]
+cliva_minixHell> wc -l < test
+#[...count the number of lines of file test..]
+cliva_minixHell> cat << EOF
+HI GUYS
+EOF
+#[HI GUYS]
+cliva_minixHell> cat << EOF | wc -l
+HI GUYS
+EOF
+#[1]
+cliva_minixHell> cat << EOF
+HI GUYS
+HERE IS "$USER"
+EOF
+#[HI GUYS 
+# HERE IS "YOUR_USER"]
+cliva_minixHell> < test cat > test2
+#[...create test2 file with thetest file content]
+cliva_minixHell> wc -l < /etc/passwd > file1 > file2 > file3 > file4
+#[...create file1, 2 and 3 empty and file4 with the  countn lines of passwd file content]
 ```
 
 ## Contributors
