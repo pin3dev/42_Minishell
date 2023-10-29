@@ -312,6 +312,7 @@ cliva_minixHell> < test cat > test2
 cliva_minixHell> wc -l < /etc/passwd > file1 > file2 > file3 > file4
 #[...create file1, 2 and 3 empty and file4 with the  countn lines of passwd file content]
 ```
+</details>
 
 ## Contributors
 
