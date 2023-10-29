@@ -34,7 +34,7 @@ make
 
 ---
 
-<details><summary><h3 id="Usage Examples">Usage Examples</h3></summary>
+<details><summary><h2 id="Usage Examples">Usage Examples</h2></summary>
 
 The tests below were thought up by my friend `@waltergcc`, for more examples you can visit his [repository here](https://github.com/waltergcc/42-minishell#tests)
 
