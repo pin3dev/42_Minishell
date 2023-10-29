@@ -65,9 +65,9 @@ cliva_minixHell> "cat existing_files"
 ```
 
 ### Builtins
-```bash
-###### ECHO:
 
+###### ECHO:
+```bash
 cliva_minixHell> echo This is a test
 #[This is a test]
 cliva_minixHell> echo -n Hello World
@@ -90,9 +90,10 @@ cliva_minixHell> echo 'cat lol.c cat > Iol.c'
 #[cat lol.c cat > Iol.c]
 
 #I encourage you to test the echo command together with other associated commands, you can use your creativity
+```
 
 ###### CD, PWD & ENV
-
+```bash
 cliva_minixHell> env
 #[...current list of environment variables with their values output...]
 cliva_minixHell> pwd
@@ -105,9 +106,10 @@ cliva_minixHell> cd /path/to/a/directory
 #[...change to the directory provided...]
 cliva_minixHell> cd 
 #[...change to the HOME directory...]
+```
 
-##### EXPORT:
-
+###### EXPORT:
+```bash
 cliva_minixHell> export NEW_VAR
 cliva_minixHell> export
 #[...current list of environment variables with their values in alphabetical order, including the NEW_VAR...]
@@ -129,9 +131,10 @@ cliva_minixHell> export 123=VALUE
 cliva_minixHell> export _123=VALUE
 cliva_minixHell> export
 #[...current list of environment variables with their values in alphabetical order, including the _123 and their value...]
+```
 
-##### UNSET:
-
+###### UNSET:
+```bash
 cliva_minixHell> unset NEW_VAR _123
 cliva_minixHell> export
 #[...current list of environment variables with their values in alphabetical order, without NEW_VAR and _123...]
@@ -143,9 +146,10 @@ cliva_minixHell> cd
 cliva_minixHell> unset PATH
 cliva_minixHell> #HERE TRY ANY COMMAND
 #[...error output...]
+```
 
-##### EXIT:
-
+###### EXIT:
+```bash
 
 
 ```
