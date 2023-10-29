@@ -316,7 +316,9 @@ cliva_minixHell> wc -l < /etc/passwd > file1 > file2 > file3 > file4
 </details>
 
 <details><summary><h2 id="Theoretical Explanation">Theoretical Explanation</h2></summary>
->soon
+
+  >soon
+
 </details>
 
 ## Contributors
