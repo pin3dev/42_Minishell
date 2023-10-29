@@ -45,11 +45,10 @@ cliva_minixHell> ls
 cliva_minixHell> /bin/ls
 #[...command output...]
 
-
 #I encourage you to test with more commands, you can use your creativity
 ```
 
-###Quote Handling
+### Quote Handling
 ```bash
 cliva_minixHell> "/bin/ls"
 #[...command output...]
@@ -62,8 +61,93 @@ cliva_minixHell> "cat" existing_files
 cliva_minixHell> "cat existing_files"
 #[...error output...]
 
-#I encourage you to try another type and quantity of quotation marks,
-# mixing double and single quotation marks, you can use your creativity
+#I encourage you to try another type and quantity of quotation marks, mixing double and single quotation marks, you can use your creativity
+```
+
+### Builtins
+```bash
+###### ECHO:
+
+cliva_minixHell> echo This is a test
+#[This is a test]
+cliva_minixHell> echo -n Hello World
+#[Hello Worldcliva_minixHell>]
+cliva_minixHell> echo -n -n -n -n -n Hello World
+#[Hello Worldcliva_minixHell>]
+cliva_minixHell> echo -nnnnnnnnn Hello World
+#[Hello Worldcliva_minixHell>]
+cliva_minixHell> echo "Hello      with       spaces"
+#["Hello with spaces"]
+cliva_minixHell> echo "test with %specials *chars"
+#[test with %specials *chars]
+cliva_minixHell> echo "cat lol.c cat > Iol.c"
+#[cat lol.c cat > Iol.c]
+cliva_minixHell> echo 'Hello      with       spaces'
+#["Hello with spaces"]
+cliva_minixHell> echo 'test with %specials *chars'
+#[test with %specials *chars]
+cliva_minixHell> echo 'cat lol.c cat > Iol.c'
+#[cat lol.c cat > Iol.c]
+
+#I encourage you to test the echo command together with other associated commands, you can use your creativity
+
+###### CD, PWD & ENV
+
+cliva_minixHell> env
+#[...current list of environment variables with their values output...]
+cliva_minixHell> pwd
+#[...path of your current directory output...] 
+cliva_minixHell> cd .
+#[...stay on your current directory...]
+cliva_minixHell> cd ..
+#[...change to the parent directory of the current directory...]
+cliva_minixHell> cd /path/to/a/directory
+#[...change to the directory provided...]
+cliva_minixHell> cd 
+#[...change to the HOME directory...]
+
+##### EXPORT:
+
+cliva_minixHell> export NEW_VAR
+cliva_minixHell> export
+#[...current list of environment variables with their values in alphabetical order, including the NEW_VAR...]
+cliva_minixHell> env
+#[...current list of environment variables with their values in common order, without the NEW_VAR...]
+cliva_minixHell> export NEW_VAR=42
+cliva_minixHell> export
+#[...current list of environment variables with their values in alphabetical order, including the NEW_VAR and their new value...]
+cliva_minixHell> env
+#[...current list of environment variables with their values in common order, with the NEW_VAR and their value...]
+cliva_minixHell> export NEW_VAR="A little change"
+cliva_minixHell> export
+#[...current list of environment variables with their values in alphabetical order, including the NEW_VAR and their new value...]
+cliva_minixHell> export NEW_VAR=$USER
+cliva_minixHell> export
+#[...current list of environment variables with their values in alphabetical order, including the NEW_VAR and their new value (YOUR_USERNAME)...]
+cliva_minixHell> export 123=VALUE
+#[...error output...]
+cliva_minixHell> export _123=VALUE
+cliva_minixHell> export
+#[...current list of environment variables with their values in alphabetical order, including the _123 and their value...]
+
+##### UNSET:
+
+cliva_minixHell> unset NEW_VAR _123
+cliva_minixHell> export
+#[...current list of environment variables with their values in alphabetical order, without NEW_VAR and _123...]
+cliva_minixHell> env
+#[...current list of environment variables with their values in common order, without NEW_VAR and _123...]
+cliva_minixHell> unset HOME
+cliva_minixHell> cd
+#[...error output...]
+cliva_minixHell> unset PATH
+cliva_minixHell> #HERE TRY ANY COMMAND
+#[...error output...]
+
+##### EXIT:
+
+
+
 ```
 
 ## Contributors
