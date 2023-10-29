@@ -17,7 +17,7 @@ Minishell - As beautiful as a shell 🐚
 
 ## Overview
 
-This project is a simplified implementation of a Unix shell, adhering to the `minishell` project curriculum of 42 school.
+This project is a simplified implementation of a Unix shell, adhering to the `minishell` project curriculum of 42 school. This was carried out following the rules described in the [`subject`]() version 7 released 2023.
 
 ## Mandatory Features
 
