@@ -89,7 +89,7 @@ cliva_minixHell> echo 'test with %specials *chars'
 cliva_minixHell> echo 'cat lol.c cat > Iol.c'
 #[cat lol.c cat > Iol.c]
 
-#I encourage you to test the echo command together with other associated commands, you can use your creativity
+##I encourage you to test the status with other commands such as expr $? + $? for example, you can use your creativity
 ```
 
 ###### CD, PWD & ENV
@@ -180,6 +180,8 @@ cliva_minixHell> echo $?
 cliva_minixHell> ./minishell
 cliva_minixHell> exit 42blabla
 #[...error output...]
+
+#
 ```
 
 ### EXPANSION OF ENVIRONMENT VARIABLES BY `$`
@@ -196,6 +198,58 @@ cliva_minixHell> echo $HOME/test
 #[...your HOME path + /test...]
 cliva_minixHell> echo $HOME.test/$USER
 #[...your HOME path + /test + / +  your USER name...]
+```
+
+### SIGNAL CONTROL BY `CTRL+C`, `CTRL+D`, `CTRL+\`
+###### EMPTY PROMPT
+
+```bash
+cliva_minixHell> #HOLD CTRL+C
+#[^C]
+cliva_minixHell> echo $?
+#[130]
+cliva_minixHell> #HOLD CTRL+\
+#[...nothing happens...]
+cliva_minixHell> #HOLD CTRL+D
+#[exit]
+bash> echo $?
+#[0]
+```
+
+###### FULL PROMPT
+
+```bash
+cliva_minixHell> digit anything here #HOLD CTRL+C
+#[^C]
+cliva_minixHell> echo $?
+#[130]
+cliva_minixHell> digit anything here #HOLD CTRL+\
+#[...nothing happens...]
+cliva_minixHell> digit anything here #HOLD CTRL+D
+#[...nothing happens...]
+```
+
+###### INTERACTIVE MODE
+
+```bash
+cliva_minixHell> cat
+#[...interactive mode]
+cliva_minixHell> #HOLD CTRL+C
+#[^C]
+cliva_minixHell> echo $?
+#[130]
+cliva_minixHell> cat
+#[...interactive mode]
+cliva_minixHell> #HOLD CTRL+\
+#[\Quit (core dumped)]
+cliva_minixHell> echo $?
+#[131]
+cliva_minixHell> cat
+#[...interactive mode]
+cliva_minixHell> #HOLD CTRL+D
+#[exit]
+bash> echo $?
+#[0]
 ```
 
 ## Contributors
