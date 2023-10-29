@@ -1,4 +1,11 @@
 # Minishell
+Minishell - As beautiful as a shell 🐚
+
+## Table of Contents
+- [Project Overview](#overview)
+- [Mandatory Features](#mandatory-features)
+- [Project Compilation and Execution](#compilation-and-execution)
+- [Tests -  Usage Examples](#usage-examples)
 
 ## Overview
 
