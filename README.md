@@ -316,7 +316,9 @@ cliva_minixHell> wc -l < /etc/passwd > file1 > file2 > file3 > file4
 
 ## Contributors
 
-* Ívany Pinheiro
-* Clara Franco
+>I would like to extend my deepest gratitude to the `@clima-fr` for the remarkable partnership. Together, we navigated 42 intense days, filled with challenges and learning experiences. Your commitment and dedication were pivotal in bringing this project to fruition. Thank you for every shared moment and all the hard work throughout this journey.
+
+* Ívany Pinheiro aka [`@pin3dev`](https://github.com/pin3dev)
+* Clara Franco aka [`@clima-fr`](https://github.com/clima-fr)
 
 
