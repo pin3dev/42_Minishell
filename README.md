@@ -252,6 +252,14 @@ bash> echo $?
 #[0]
 ```
 
+### PIPES
+```bash
+cliva_minixHell> cat Makefile | grep NAME | wc -l
+cliva_minixHell> ps aux | sort -rk 4 | head
+cliva_minixHell> ls -l | grep "^-" | wc -l
+
+```
+
 ## Contributors
 
 * Ívany Pinheiro
