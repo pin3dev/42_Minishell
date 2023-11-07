@@ -70,7 +70,6 @@ cliva_minixHell> touch 1 2 3
 cliva_minixHell> ls
 #[...command output + files 1 2 3 created...]
 cliva_minixHell> rm 1 2 3
-#[...command output + files 1 2 3 created...]
 cliva_minixHell> ls
 #[...command output without removed files 1 2 3...]
 cliva_minixHell> /bin/ls
@@ -266,19 +265,19 @@ cliva_minixHell> digit anything here #HOLD CTRL+D
 
 ```bash
 cliva_minixHell> cat
-#[...interactive mode]
+#[...interactive mode...]
 cliva_minixHell> #HOLD CTRL+C
 #[^C]
 cliva_minixHell> echo $?
 #[130]
 cliva_minixHell> cat
-#[...interactive mode]
+#[...interactive mode...]
 cliva_minixHell> #HOLD CTRL+\
 #[\Quit (core dumped)]
 cliva_minixHell> echo $?
 #[131]
 cliva_minixHell> cat
-#[...interactive mode]
+#[...interactive mode...]
 cliva_minixHell> #HOLD CTRL+D
 #[exit]
 bash> echo $?
@@ -318,9 +317,9 @@ EOF
 #[HI GUYS 
 # HERE IS "YOUR_USER"]
 cliva_minixHell> < test cat > test2
-#[...create test2 file with thetest file content]
+#[...create test2 file with thetest file content...]
 cliva_minixHell> wc -l < /etc/passwd > file1 > file2 > file3 > file4
-#[...create file1, 2 and 3 empty and file4 with the  countn lines of passwd file content]
+#[...create file1, 2 and 3 empty and file4 with the  countn lines of passwd file content...]
 ```
 </details>
 
