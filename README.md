@@ -14,14 +14,14 @@ Minishell - As beautiful as a shell 🐚
 ---
 
 <p align="center">
-  <img src="https://github.com/pin3dev/42_Minishell/blob/9f8c7b788d5290edecf79b26bc83c83fd6ce4953/minishell_redirs_pipes.gif" alt="gif_minishell_test" style="display: block; margin: 0 auto; width: 100%;">
+  <img src="https://github.com/pin3dev/42_Cursus/blob/50e11197fa2b1e646ae477492626faa09104da83/assets/Minishell/Rdm/minishell_redirs_pipes.gif" alt="gif_minishell_test" style="display: block; margin: 0 auto; width: 100%;">
 </p>
 
 ---
 
 ## Overview
 
-This project is a simplified implementation of a Unix shell, adhering to the `minishell` project curriculum of 42 school. This was carried out following the rules described in the [`subject`](https://github.com/pin3dev/42_Minishell/blob/cd194128ad67a2a359f286c377c1387dd772382d/minishell_en.subject.pdf) version 7 released 2023.
+This project is a simplified implementation of a Unix shell, adhering to the `minishell` project curriculum of 42 school. This was carried out following the rules described in the [`subject`](https://github.com/pin3dev/42_Cursus/blob/50e11197fa2b1e646ae477492626faa09104da83/assets/Minishell/Rdm/minishell_en.subject.pdf) version 7 released 2023.
 
 ## Mandatory Features
 
